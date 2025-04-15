@@ -1,0 +1,12 @@
+.btnSlim{
+    padding: 4px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #666;
+
+}
+.btnSlim:hover{
+    background-color: #666;
+    transition: 1s;
+    color: #fff;
+}

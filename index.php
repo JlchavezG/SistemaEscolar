@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/minimal.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" href="img/New_Logo_Gris.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
@@ -18,7 +19,7 @@
         <div class="row mt-4 mb 2">
             <div class="col"></div>
             <div class="col text-end">
-                <a href="#" data-bs-toggle="offcanvas" data-bs-target="#AyudaLogin" class="btn btnPrincipal">Ayuda
+                <a href="#" data-bs-toggle="offcanvas" data-bs-target="#AyudaLogin" class="btn btnSlim">Ayuda
                     Login</a>
             </div>
         </div>
@@ -65,25 +66,25 @@
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <input type="submit" name="BtnIngresar" id="BtnIngresar" class="btn btn-sm btnPrincipal"
+                            <input type="submit" name="BtnIngresar" id="BtnIngresar" class="btn btn-sm btnSlim"
                                 value="Ingresar">
                         </div>
                         <div class="row mt-3 justify-content-center">
                             <div class="col-sm-12 col-md-6 col-lg-6 text-center mt-2">
                                 <div class="d-grid gap-2 mx-auto">
-                                    <a href="index" type="button" class="btn btnPrincipal">
+                                    <a href="index" type="button" class="btn btnSlim">
                                         <svg class="bi" width="18" height="18" fill="currentColor">
                                             <use
-                                                xlink:href="library/bicons/bootstrap-icons.svg#arrow-left-circle-fill" />
+                                                xlink:href="library/icons/bootstrap-icons.svg#arrow-left-circle-fill" />
                                         </svg>&nbsp;&nbsp; Regresar al sitio web
                                     </a>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-6 text-center mt-2">
                                 <div class="d-grid gap-2 mx-auto">
-                                    <a href="RecPass" type="button" class="btn btnPrincipal">
+                                    <a href="RecPass" type="button" class="btn btnSlim">
                                         <svg class="bi" width="18" height="18" fill="currentColor">
-                                            <use xlink:href="library/bicons/bootstrap-icons.svg#headset" />
+                                            <use xlink:href="library/icons/bootstrap-icons.svg#headset" />
                                         </svg>&nbsp;&nbsp; Soporte Técnico</a>
                                 </div>
                             </div>
