@@ -85,3 +85,4 @@ CREATE TABLE modulos_impartidos (
     FOREIGN KEY (id_modulo) REFERENCES modulos(id_modulo),
     FOREIGN KEY (id_alumno) REFERENCES alumnos(id_alumno)
 );
+

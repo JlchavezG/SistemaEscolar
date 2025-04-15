@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/minimal.css">
     <link rel="icon" type="image/png" href="img/New_Logo_Gris.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
     <title>Inicio de sesion | SistemEscolar</title>
 </head>
 
@@ -116,6 +117,14 @@
                     }, false)
                 })
         })()
+    </script>
+    <script>
+    function verPass(ck) {
+        if (ck.checked)
+        $('#VerPassWord').attr("type", "text");
+        else
+        $('#VerPassWord').attr("type", "password");
+        }
     </script>
 </body>
 
