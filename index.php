@@ -1,6 +1,10 @@
-<?php include 'include/db.php;' ?>
+<?php 
+include "include/db.php";
+include "include/login.php";
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,6 +19,7 @@
 </head>
 
 <body>
+    <?php include 'element/AyudaLogin.php';?>
     <div class="container">
         <div class="row mt-4 mb 2">
             <div class="col"></div>
@@ -24,7 +29,7 @@
             </div>
         </div>
         <div class="row mt-5 justify-content-center">
-            <h1 class="text-center display-5 fs-3 text">Inicio de <span class="TituloMiPrincesa">Sesion</span></h1>
+            <h1 class="text-center display-5 fs-3 text">Inicio de <span class="text-secondary">Sesion</span></h1>
         </div>
         <div class="row justify-content-center mt-3">
             <div class="col-sm-12 col-md-10 col-lg-10 text-center">
@@ -42,7 +47,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" class="needs-validation" novalidate>
                         <div class="row mt-2">
-                            <input type="email" name="EmailUser" id="EmailUser" class="form-control" placeholder="Email"
+                            <input type="text" name="UserName" id="UserName" class="form-control" placeholder="Usuario"
                                 required>
                             <div class="invalid-feedback">
                                 Por favor ingresa tu nombre de usuario.
@@ -76,7 +81,7 @@
                                         <svg class="bi" width="18" height="18" fill="currentColor">
                                             <use
                                                 xlink:href="library/icons/bootstrap-icons.svg#arrow-left-circle-fill" />
-                                        </svg>&nbsp;&nbsp; Regresar al sitio web
+                                        </svg>&nbsp;&nbsp; Recuperar Password
                                     </a>
                                 </div>
                             </div>

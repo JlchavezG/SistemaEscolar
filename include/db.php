@@ -3,7 +3,7 @@
 $host = 'localhost';
 $usuario = 'root';
 $contrasena = '';
-$base_datos = 'SistemEscolar';
+$base_datos = 'SistemEdu';
 
 // Establecer la conexión
 $conexion = mysqli_connect($host, $usuario, $contrasena, $base_datos);

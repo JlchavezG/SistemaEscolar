@@ -1,0 +1,3 @@
+INSERT INTO SistemEdu.usuarios (id_usuario, nombre, apellido_paterno, apellido_materno, correo, telefono, nombre_usuario, 
+contrasena, rol, foto_perfil, fecha_registro, ultima_conexion, activo, verificado, token_recuperacion, expiracion_token) VALUES 
+(NULL, 'Jose Luis', 'Chávez', 'Gómez', 'webmaster@iscjoseluischavezg.mx', '5581546200', 'JlchavezG', '827ccb0eea8a706c4c34a16891f84e7b', 'admin', 'default.png', '2025-04-15 14:03:46', NULL, '1', '0', NULL, NULL);
