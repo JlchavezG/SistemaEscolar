@@ -26,6 +26,7 @@ if (!isset($_SESSION['nombre_usuario'])) {
 <body>
 <?php include 'element/navbar.php';?>
 <?php include 'element/CerrarSesion.php';?>
+<?php include 'element/MenuSistemas.php';?>
 </body>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/pace.js"></script>
