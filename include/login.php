@@ -25,8 +25,12 @@ if (isset($_POST['BtnIngresar'])) {
             $id = $row['id_usuario'];
             $update = "UPDATE usuarios SET ultima_conexion = NOW() WHERE id_usuario = '$id'";
             $conexion->query($update);
-
+            // actualizar el estao de online 
+            $Online = "UPDATE usuarios SET Online = 1 WHERE id_usuario = '$id'";
+            $conexion->query($Online);
             $conexion->close();
+
+            
             header("location:app");
             exit;
         } else {
