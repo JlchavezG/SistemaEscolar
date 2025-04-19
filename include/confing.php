@@ -6,7 +6,7 @@ session_start();
 // validar que el usuari pase por el login 
 $usuario = $_SESSION['nombre_usuario'];
 if(!isset($usuario)){
-header("location:index.php");
+header("location:index");
 }
 // extraer los datos del usuario que ingreso al sistema
 
@@ -30,5 +30,15 @@ if ($hora_actual >= 5 && $hora_actual < 12) {
 } else {
     $saludo = 'Buenas noches';
 }
+
+
+
+
+ // variables para el menu, dasboard y tipo de usuario
+ $Msistemas = 1;
+ $MAdmin = 2;
+ $MUDocente = 3;
+ $MAlumno = 4;
+ $Tmenu = $_SESSION['Rol'];
 
 ?>
